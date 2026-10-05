@@ -12,7 +12,7 @@ for(const name of pages){
  for(const match of file.matchAll(/\b(?:href|src|poster)="([^"]+)"/g)){
   const target=match[1];if(target.startsWith('#')){if(!ids.includes(target.slice(1)))throw new Error(name+': missing anchor '+target);continue;}
   if(/^(https?:|data:|mailto:)/.test(target))continue;
-  await access(path.resolve(root,target.split('#')[0]));references++;
+  await access(path.resolve(root,target.split(/[?#]/)[0]));references++;
  }
  for(const match of file.matchAll(/data-dialog="([^"]+)"/g)){if(!ids.includes(match[1]))throw new Error(name+': missing dialog '+match[1]);}
  const nav=file.match(/<nav class="navigation"[^>]*>([\s\S]*?)<\/nav>/)[1];

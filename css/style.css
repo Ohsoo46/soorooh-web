@@ -86,4 +86,11 @@
 
 .space-project-title{font-family:'Paperozi',var(--sans);font-weight:400}
 
-.video-feature.portrait-film{aspect-ratio:16/9;background:#1c1d19}.portrait-film img{object-fit:contain}.project-player.portrait-player{aspect-ratio:480/854;max-width:480px;max-height:75svh;margin-inline:auto}
+.portrait-project{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:clamp(30px,5vw,80px);padding:35px 0 55px;margin-bottom:45px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.video-feature.portrait-film{aspect-ratio:480/854;width:min(100%,315px);margin-inline:auto;background:#1c1d19}
+.portrait-film img{object-fit:contain;object-position:center}
+.portrait-project .film-intro{display:block;margin:0}
+.portrait-project .film-intro h2{font-size:clamp(30px,3.4vw,48px);margin:15px 0 25px;line-height:1.25}
+.portrait-project .film-intro p{max-width:400px}
+.portrait-film .film-meta{left:14px;right:14px;bottom:15px;font-size:8px;gap:10px}
+@media(max-width:600px){.portrait-project{grid-template-columns:1fr;gap:25px;padding:25px 0 35px;margin-bottom:35px}.video-feature.portrait-film{width:min(100%,270px)}.portrait-project .film-intro h2{font-size:32px;margin:10px 0 15px}}.project-player.portrait-player{aspect-ratio:480/854;max-width:480px;max-height:75svh;margin-inline:auto}
