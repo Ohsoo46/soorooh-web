@@ -43,3 +43,10 @@ SOOROOH wordmarks use the user-specified Paperozi CSS family (Paperlogy font fil
 - 1920 × 1080, approximately 99.82 seconds, one detected audio track.
 - assets/images/family-story.webp is a frame extracted at 5 seconds.
 - Individual project page: family-story.html, linked from video.html. Title uses Paperozi 400.
+
+## User video — Midjourney 01
+
+- Supplied Midjourney_01.mp4 copied unchanged to assets/videos/midjourney-01.mp4.
+- 5 seconds, 480 × 854, no audio track detected.
+- Video generation credit supplied by user: Sora.
+- Poster extracted from video at 1 second. Individual page: midjourney-01.html.

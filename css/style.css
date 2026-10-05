@@ -85,3 +85,5 @@
 .project-back{margin-bottom:24px}.project-player{display:block;width:100%;max-height:78svh;aspect-ratio:16/9;background:#10110f;object-fit:contain}.video-project .film-intro h2{font-family:var(--sans);font-size:32px;letter-spacing:-.04em}
 
 .space-project-title{font-family:'Paperozi',var(--sans);font-weight:400}
+
+.video-feature.portrait-film{aspect-ratio:16/9;background:#1c1d19}.portrait-film img{object-fit:contain}.project-player.portrait-player{aspect-ratio:480/854;max-width:480px;max-height:75svh;margin-inline:auto}
